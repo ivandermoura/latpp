@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/material.dart';
 import 'package:lat_pp/home_page.dart';
-import 'package:lat_pp/main.dart';
+
 
 
 void main(){
