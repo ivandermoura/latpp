@@ -6,18 +6,10 @@ import 'package:lat_pp/main.dart';
 
 void main(){
  
-  test("Panjang persegi return error string",() {
-    var result = Panjangvalidator.validate('');
-    expect(result, 'kolom panjang tidak boleh kosong');
-  });
-
-  test("Panjang persegi tidak null",() {
-    var result = Panjangvalidator.validate('string');
-    expect(result, null);
-  });
+ 
    
  
-  testWidgets('Add and remove a todo', (WidgetTester tester) async {
+  testWidgets('tambah atau hapus todo', (WidgetTester tester) async {
    
     // Build the widget.
     await tester.pumpWidget(Luassegiempat());
